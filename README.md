@@ -43,7 +43,7 @@
 
 ## 📝 4 Serviços rodando no docker
 
-![docker](docker.jpg)
+![docker](docker.png)
 
 
 
