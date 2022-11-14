@@ -16,37 +16,27 @@
 
 ## 💻 Componentes da arquitetura
 
-### Transactions Api
+### 🎲 Transactions Api
 
 * Micro serviço Spring responsável por criar as transações do sistema
 * Repositório: https://github.com/RobertoAlbino/transactions_api
 
-### Transactions Database
-
-* Banco de dados PostgreSQL que armazena os dados de transação
-* Repositório: https://github.com/RobertoAlbino/transactions_api
-
-### Transactions Api
-
-* Micro serviço Spring responsável pelas transações do sistema
-* Repositório: https://github.com/RobertoAlbino/transactions_api
-
-### Transactions Database
+### 🎲 Transactions Database
 
 * Banco de dados PostgreSQL que armazena os dados de transação
 * Repositório: https://github.com/RobertoAlbino/transactions_database
 
-### Clients Api
+### 🎲 Clients Api
 
 * Micro serviço Spring responsável pelos dados de cliente e contas
 * Repositório: https://github.com/RobertoAlbino/clients_api
 
-### Clients Database
+### 🎲 Clients Database
 
 * Banco de dados PostgreSQL que armazena os dados de cliente e contas
 * Repositório: https://github.com/RobertoAlbino/clients_database
 
-### Pismo Infra
+### 🎲 Pismo Infra
 
 * Esse projeto no momento tem apenas a responsabilidade de criar a network docker para os outros micro serviços utilizarem
 * Repositório: https://github.com/RobertoAlbino/pismo-infra
