@@ -14,31 +14,32 @@
 
 ![arquitetura](desenho.jpg)
 
-## 💻 Componentes da arquitetura
+## 💻 Componentes da arquitetura por ordem necessária de execução
 
-### 🎲 Transactions Api
+### 🎲 Pismo Infra
 
-* Micro serviço Spring responsável por criar as transações do sistema
-* Repositório: https://github.com/RobertoAlbino/transactions_api
+* Esse projeto no momento tem apenas a responsabilidade de criar a network docker para os outros micro serviços utilizarem
+* Repositório: https://github.com/RobertoAlbino/pismo-infra
 
 ### 🎲 Transactions Database
 
 * Banco de dados PostgreSQL que armazena os dados de transação
 * Repositório: https://github.com/RobertoAlbino/transactions_database
 
-### 🎲 Clients Api
-
-* Micro serviço Spring responsável pelos dados de cliente e contas
-* Repositório: https://github.com/RobertoAlbino/clients_api
-
 ### 🎲 Clients Database
 
 * Banco de dados PostgreSQL que armazena os dados de cliente e contas
 * Repositório: https://github.com/RobertoAlbino/clients_database
 
-### 🎲 Pismo Infra
+### 🎲 Transactions Api
 
-* Esse projeto no momento tem apenas a responsabilidade de criar a network docker para os outros micro serviços utilizarem
-* Repositório: https://github.com/RobertoAlbino/pismo-infra
+* Micro serviço Spring responsável por criar as transações do sistema
+* Repositório: https://github.com/RobertoAlbino/transactions_api
+
+### 🎲 Clients Api
+
+* Micro serviço Spring responsável pelos dados de cliente e contas
+* Repositório: https://github.com/RobertoAlbino/clients_api
+
 
 
