@@ -14,6 +14,10 @@
 
 ![arquitetura](desenho.jpg)
 
+## 📝 Organização da arquitetura
+
+* 4 micro serviços docker sendo eles dois sistemas spring e dois banco de dados, rodando dentro de uma mesma network docker e se comunicando por essa network.
+
 ## 💻 Componentes da arquitetura por ordem necessária de execução
 
 ### 🎲 Pismo Infra
