@@ -41,5 +41,9 @@
 * Micro serviço Spring responsável pelos dados de cliente e contas
 * Repositório: https://github.com/RobertoAlbino/clients_api
 
+## 📝 4 Serviços rodando no docker
+
+![docker](docker.jpg)
+
 
 
